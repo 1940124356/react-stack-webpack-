@@ -1,0 +1,10 @@
+$color:red;
+$size:50px;
+.box{
+    border: 1px solid orange;
+    padding: 20px;
+    &>h1{
+        color: $color;
+        font-size: $size;
+    }
+}
